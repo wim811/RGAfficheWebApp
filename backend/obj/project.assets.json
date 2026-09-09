@@ -2466,11 +2466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/backend.csproj",
+      "projectUniqueName": "/Users/wimvangeyt/Development/RGPosterUploadWebApp/RGAfficheWebApp/backend/backend.csproj",
       "projectName": "backend",
-      "projectPath": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/backend.csproj",
+      "projectPath": "/Users/wimvangeyt/Development/RGPosterUploadWebApp/RGAfficheWebApp/backend/backend.csproj",
       "packagesPath": "/Users/wimvangeyt/.nuget/packages/",
-      "outputPath": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/obj/",
+      "outputPath": "/Users/wimvangeyt/Development/RGPosterUploadWebApp/RGAfficheWebApp/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/wimvangeyt/.nuget/NuGet/NuGet.Config"

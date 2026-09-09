@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "86h0WLpN7ME=",
+  "dgSpecHash": "AL3dnqXUqpY=",
   "success": true,
-  "projectFilePath": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/backend.csproj",
+  "projectFilePath": "/Users/wimvangeyt/Development/RGPosterUploadWebApp/RGAfficheWebApp/backend/backend.csproj",
   "expectedPackageFiles": [
     "/Users/wimvangeyt/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/wimvangeyt/.nuget/packages/microsoft.aspnetcore.openapi/10.0.8/microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
@@ -43,9 +43,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/backend.csproj",
+      "projectPath": "/Users/wimvangeyt/Development/RGPosterUploadWebApp/RGAfficheWebApp/backend/backend.csproj",
       "warningLevel": 1,
-      "filePath": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/backend.csproj",
+      "filePath": "/Users/wimvangeyt/Development/RGPosterUploadWebApp/RGAfficheWebApp/backend/backend.csproj",
       "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"
