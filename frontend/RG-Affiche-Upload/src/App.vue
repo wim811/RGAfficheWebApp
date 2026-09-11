@@ -3,7 +3,7 @@
   <div>
 
     <navigation />
-
+    <display />
     <div>
 
       <hr>
@@ -78,7 +78,10 @@
 <script setup lang="ts">
 
 import { ref } from 'vue'
-import navigation from './navigation.vue'
+import navigation from "./navigation.vue"
+import display from './display.vue'
+
+
 
 
 const props = withDefaults(defineProps<{

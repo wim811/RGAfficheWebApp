@@ -1,6 +1,7 @@
 using backend.Data;
 using backend.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace backend.Controllers;
 
@@ -15,6 +16,7 @@ public class PostersController : ControllerBase
         _context = context;
     }
 
+    // POST: api/Posters/upload
     [HttpPost("upload")]
     public async Task<IActionResult> Upload(IFormFile file)
     {
@@ -43,5 +45,41 @@ public class PostersController : ControllerBase
             message = "Affiche opgeslagen.",
             id = poster.Id
         });
+    }
+
+
+    // GET: api/Posters
+    [HttpGet]
+    public async Task<IActionResult> GetPosters()
+    {
+        var posters = await _context.Posters
+            .Select(p => new
+            {
+                p.Id,
+                p.FileName,
+                p.ContentType
+            })
+            .ToListAsync();
+
+        return Ok(posters);
+    }
+
+
+    // GET: api/Posters/1/image
+    [HttpGet("{id}/image")]
+    public async Task<IActionResult> GetPosterImage(int id)
+    {
+        var poster = await _context.Posters
+            .FirstOrDefaultAsync(p => p.Id == id);
+
+        if (poster == null)
+        {
+            return NotFound();
+        }
+
+        return File(
+            poster.Data,
+            poster.ContentType
+        );
     }
 }
