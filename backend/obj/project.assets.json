@@ -2466,11 +2466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wimvangeyt/Development/RGAfficheWebApp1/backend/backend.csproj",
+      "projectUniqueName": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/backend.csproj",
       "projectName": "backend",
-      "projectPath": "/Users/wimvangeyt/Development/RGAfficheWebApp1/backend/backend.csproj",
+      "projectPath": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/backend.csproj",
       "packagesPath": "/Users/wimvangeyt/.nuget/packages/",
-      "outputPath": "/Users/wimvangeyt/Development/RGAfficheWebApp1/backend/obj/",
+      "outputPath": "/Users/wimvangeyt/Development/RGAfficheWebApp/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/wimvangeyt/.nuget/NuGet/NuGet.Config"
@@ -2963,10 +2963,14 @@
   },
   "logs": [
     {
-      "code": "NU1900",
+      "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
     }
   ]
 }

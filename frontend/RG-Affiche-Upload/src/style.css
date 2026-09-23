@@ -11,22 +11,20 @@
     background-color: #c20909;
     padding: 1rem;
 }
-.menu ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-.menu ul li a {
-    color: white;
+
+a {
     text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0.5rem 0.75rem;
-    transition: background-color 0.3s ease;
-    border-radius: 4px;
+    gap: 30px;
+    color: white;
+    font-size:18px;
+    font-weight: 500;
 }
-.menu ul li {
-    background-color: #d44646;
+a:hover{
+    color:#0077cc;
+}
+a.router-link-active{
+    color:#0077cc;
+    font-weight:bold;
 }
 .display{
     width: 100vw;
